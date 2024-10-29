@@ -50,7 +50,7 @@ int hoare_partition(int *array, int first, int last, int size)
  */
 void qs(int *array, size_t first, size_t last, int size)
 {
-	ssize_t position = 0;
+	size_t position = 0;
 
 	if (first < last)
 	{
